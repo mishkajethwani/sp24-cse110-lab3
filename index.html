@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Meeting Minutes</title>
+  <meta name="author" content="Mishka Jethwani">
+  <link rel="icon" type="image/ico" href="/favicon.ico"></link>
+</head>
+<body>
+  <header>
+    <center><h1>Weekly All-hands</h1>
+    <h2> Meeting Minutes </h2></center>
+    <center><img src="image.png" width="1300" height="200"></center>
+    <nav>
+    	<ul>
+        <li><a href="#Attendees">Attendees</a></li>
+        <li><a href="#OldBusiness">Old Business</a></li>
+        <li><a href="#NewBusiness">New Business</a></li>
+        <li><a href="#ActionItems">Action Items</a></li>
+        <li><a href="#eom">End Of Meeting Form</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+  <hr>
+
+  <h3 id="Attendees">Attendees</h3> Mishka Jethwani, John Doe ...
+  <hr>
+   <section>
+     <div>
+       <h3 id="OldBusiness">Old Business</h3>
+       <ol>
+        <li> None! </li>
+       </ol>
+     </div>
+     <hr>
+     <span>
+     <h3 id="NewBusiness">New Business</h3>
+     <ol>
+        <li>Previous Quarter Review</li>
+        <li> Plan event for xyz client</li>
+     </ol>
+     </span>
+     <hr>
+     <h3 id="ActionItems">Action Items</h3>
+     <details><summary><b><i>Mishka Jethwani:</summary></i></b><br>
+     <p>With regards to todays discussion make sure to plan the event for the <em>xyz company</em>, on the 6th of May. Make arrangements for location and catering.</p>
+    </details>
+    <details><summary><b><i>John Doe:</i></b></summary><br>
+    <p>Make a plan for this quarter as well with special emphasis on <em> budget. </em></p>
+	</details>
+    <hr>
+    <p>Next meeting on <strong>20th May</strong>. Make sure the <a href="#Action Items"> Action Items </a> assigned are achieved.</b></p>
+ </section>
+ <section>
+ <h3 id="eom"> End of Meeting Form </h3>
+ <form>
+ <fieldset>
+   <legend>
+ 	Contact Information
+   </legend>
+   <input type="text" id="name" name="Name">
+   <input type="text" id="position" name="Position">
+   <input type="date" id="date" name="Date">
+ </fieldset>
+ Were you satisfied with todays meeting?
+ <input type="radio" id="yes" name="yes"> Yes
+ <input type="radio" id="no" name="yes"> No <br>
+ Which area is you action item related to? 
+ <input type="checkbox" id="events" name="events"> Events
+ <input type="checkbox" id="finance" name="finance"> Finance 
+ <input type="checkbox" id="tech" name="tech"> Technical
+ <input type="checkbox" id="hr" name="hr"> HR
+ <br>
+ Provide any Feedback you have below: <br>
+  <textarea id="feedback" rows=10> </textarea>
+</datalist> <br>
+<label for="tasks"> Do you think you could take up additional tasks this week</label>
+<select id="color" name="color">
+  <option value="">Select</option>
+  <option value="red">Yes, totally</option>
+  <option value="green">If you need me to</option>
+  <option value="blue">Absolutely no!</option>
+</select><br>
+<label for="here">Do you need addition help with your tasks this week?</label>
+<input type="text" id="fruit" list="Options">
+<datalist id="Options">
+  <option value="Yes">Yes, please</option>
+  <option value="No">Not really</option>
+</datalist>
+<button type="submit">Submit</button>
+ </form>
+ </section>
+ <hr>
+ <section>
+ <p> <b>Recommendations for Songs and Movies: </b></br>
+ <audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+</audio>
+ <video controls>
+  <source src="video.mp4" type="video/mp4">
+</video>
+ </p>
+ </section>
+  </main>
+
+<footer> April 14th 1:00pm </footer>
+</body>
+</html>
